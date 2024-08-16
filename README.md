@@ -19,12 +19,19 @@ Comprehensive Data Access: Retrieve comprehensive lists or specific details of m
 Key Components
 
 1)Movie Entity: The heart of the application, storing extensive movie details and linking reviews dynamically. This entity supports advanced querying and data retrieval.
+
 2)Review Entity: Designed to capture user feedback and seamlessly integrate with movie records, providing valuable insights and enhancing movie profiles.
+
 3)MovieController: The gateway for all movie-related API requests. It manages interactions, ensuring that requests for movie data are handled swiftly and accurately.
+
 4)ReviewController: Facilitates the creation of reviews and ensures they are correctly associated with the appropriate movies, enriching the overall movie data.
+
 5)MovieRepository: A powerful MongoDB repository that supports complex queries and ensures reliable data operations.
+
 6)ReviewRepository: Manages review data with precision, enabling efficient storage and retrieval of user feedback.
+
 7)MovieService: Central to business logic, handling operations related to movie management and ensuring that data is processed efficiently.
+
 8)ReviewService: Manages the creation and association of reviews, maintaining consistency and integrity within movie records.
 Technologies Used
 
