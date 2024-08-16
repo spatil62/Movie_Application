@@ -1,19 +1,17 @@
 Movie Management Application
 
-Overview
 
+Overview
 The Movie Management Application is an advanced Spring Boot-based platform that revolutionizes how movie data and reviews are handled. Designed with efficiency and scalability in mind, this application harnesses the power of MongoDB to manage movie-related information seamlessly. It provides a robust RESTful API that allows for effortless management of movie entries and user reviews, making it an essential tool for modern media applications.
 
 
 Features
-
 Dynamic Movie Management: Effortlessly create, retrieve, and update movies, including detailed metadata such as IMDb ID, release dates, genres, and multimedia links.
 Integrated Review System: Streamline the process of adding reviews to movies, with real-time updates that enrich movie profiles and enhance user engagement.
 Comprehensive Data Access: Retrieve comprehensive lists or specific details of movies, with optimized endpoints for quick and efficient access.
 
 
 Key Components
-
 Movie Entity: The heart of the application, storing extensive movie details and linking reviews dynamically. This entity supports advanced querying and data retrieval.
 Review Entity: Designed to capture user feedback and seamlessly integrate with movie records, providing valuable insights and enhancing movie profiles.
 MovieController: The gateway for all movie-related API requests. It manages interactions, ensuring that requests for movie data are handled swiftly and accurately.
